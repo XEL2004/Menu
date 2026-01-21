@@ -75,7 +75,7 @@ d.style.display=d.innerText.toLowerCase().includes(v)?"block":"none";
 <!-- APPETIZERS -->
 <section><h2>Appetizers</h2>
 
-<div class="card dish"><b>Truffle Mushroom Tartlet</b><span class="price">₱350</span>
+<div class="card dish"><b>Truffle Mushroom Tartlet</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Mushrooms, cream, truffle oil, tart shell</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -93,7 +93,7 @@ Mushrooms are sautéed with cream and baked in a crisp tart shell.
 </div>
 </section>
 
-<div class="card dish"><b>Seared Scallops</b><span class="price">₱220</span>
+<div class="card dish"><b>Seared Scallops</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Scallops, butter, lemon juice, garlic</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -111,7 +111,7 @@ Scallops are seasoned and quickly seared in hot butter, then finished with lemon
 </div>
 </section>
 
-<div class="card dish"><b>Beef Carpaccio</b><span class="price">₱380</span>
+<div class="card dish"><b>Beef Carpaccio</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Raw beef, olive oil, parmesan, arugula</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -135,7 +135,7 @@ Beef is thinly sliced, chilled, and dressed with olive oil and cheese.
 <!-- SOUPS -->
 <section><h2>Soups</h2>
 
-<div class="card dish"><b>Cream of Mushroom</b><span class="price">₱260</span>
+<div class="card dish"><b>Cream of Mushroom</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Mushrooms, cream, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -153,7 +153,7 @@ Mushrooms are cooked and blended with cream until smooth.
 </div>
 </section>
 
-<div class="card dish"><b>Lobster Bisque</b><span class="price">₱420</span>
+<div class="card dish"><b>Lobster Bisque</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Lobster, cream, stock, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -172,7 +172,7 @@ Lobster shells are simmered for flavor and blended into a creamy soup.
 </section>
 
 
-<div class="card dish"><b>Pumpkin Velouté</b><span class="price">₱240</span>
+<div class="card dish"><b>Pumpkin Velouté</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Pumpkin, cream, nutmeg</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -195,11 +195,11 @@ Pumpkin is cooked, blended, and finished with cream.
 <!-- FISH -->
 <section><h2>Poisson / Fish</h2>
 
-<div class="card dish"><b>Pan-Seared Salmon</b><span class="price">₱520</span>
+<div class="card dish"><b>Pan-Seared Salmon</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Salmon, butter, lemon, dill</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 480 kcal<br>
+Calories: 520 kcal<br>
 Protein:40g<br>
 Fat: 34g<br>
 Carbohydrates:5g
@@ -214,11 +214,11 @@ Salmon is pan-seared and topped with lemon dill sauce.
 </section>
 
 
-<div class="card dish"><b>Poached Cod</b><span class="price">₱460</span>
+<div class="card dish"><b>Poached Cod</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Cod, white wine, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 360 kcal<br>
+Calories: 420 kcal<br>
 Protein:36g<br>
 Fat: 18g<br>
 Carbohydrates:10g
@@ -233,11 +233,11 @@ Cod is gently poached in seasoned liquid.
 </section>
 
 
-<div class="card dish"><b>Herb-Crusted Tuna</b><span class="price">₱500</span>
+<div class="card dish"><b>Herb-Crusted Tuna</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Tuna, herbs, olive oil</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 450 kcal<br>
+Calories: 510 kcal<br>
 Protein:45g<br>
 Fat: 26g<br>
 Carbohydrates:4g
@@ -256,11 +256,11 @@ Tuna is coated with herbs and seared.
 <!-- PASTA -->
 <section><h2>Pasta</h2>
 
-<div class="card dish"><b>Fettuccine Alfredo</b><span class="price">₱380</span>
+<div class="card dish"><b>Fettuccine Alfredo</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Fettuccine pasta, butter, garlic, cream, Parmesan cheese </p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 620 kcal<br>
+Calories: 650 kcal<br>
 Protein:18g<br>
 Fat: 35g<br>
 Carbohydrates:70g
@@ -274,7 +274,7 @@ Fettuccine pasta tossed in a rich cream sauce with butter, garlic, and Parmesan 
 </div>
 </section>
 
-<div class="card dish"><b>Penne Arrabbiata</b><span class="price">₱340</span>
+<div class="card dish"><b>Penne Arrabbiata</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Penne pasta, olive oil, garlic, tomato sauce, chili flakes </p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -292,7 +292,7 @@ Penne pasta cooked al dente and coated in a spicy tomato and garlic sauce with o
 </div>
 </section>
 
-<div class="card dish"><b>Seafood Linguine</b><span class="price">₱420</span>
+<div class="card dish"><b>Seafood Linguine</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Penne pasta, olive oil, garlic, tomato sauce, chili flakes </p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -314,11 +314,11 @@ Linguine pasta tossed with mixed seafood in a light tomato-garlic sauce.
 <!-- MEAT -->
 <section><h2>ENTRÉE / MEAT</h2>
 
-<div class="card dish"><b>Beef Tenderloin Steak</b><span class="price">₱680</span>
+<div class="card dish"><b>Beef Tenderloin Steak</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Beef, red wine, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 650 kcal<br>
+Calories: 780 kcal<br>
 Protein:52g<br>
 Fat: 48g<br>
 Carbohydrates:6g
@@ -332,11 +332,11 @@ Steak is grilled and served with wine sauce.
 </div>
 </section>
 
-<div class="card dish"><b>Chicken Supreme</b><span class="price">₱460</span>
+<div class="card dish"><b>Chicken Supreme</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Chicken, cream, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 520 kcal<br>
+Calories: 620 kcal<br>
 Protein:42g<br>
 Fat: 36g<br>
 Carbohydrates:12g
@@ -350,11 +350,11 @@ Chicken breast is roasted and finished with cream sauce.
 </div>
 </section>
 
-<div class="card dish"><b>Braised Lamb Shank</b><span class="price">₱720</span>
+<div class="card dish"><b>Braised Lamb Shank</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Lamb, vegetables, stock</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 720 kcal<br>
+Calories: 820 kcal<br>
 Protein:50g<br>
 Fat: 55g<br>
 Carbohydrates:8g
@@ -372,11 +372,11 @@ Lamb is slow-cooked until tender.
 <!-- RELEVÉ / JOINT -->
 <section><h2>RELEVÉ / JOINT</h2>
 
-<div class="card dish"><b>Roast Prime Rib</b><span class="price">₱780</span>
+<div class="card dish"><b>Roast Prime Rib</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Beef rib, herbs</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 780 kcal<br>
+Calories: 880 kcal<br>
 Protein:56g<br>
 Fat: 60g<br>
 Carbohydrates:4g
@@ -390,11 +390,11 @@ Slow-roasted and rested before slicing.
 </div>
 </section>
 
-<div class="card dish"><b>Glazed Ham</b><span class="price">₱500</span>
+<div class="card dish"><b>Glazed Ham</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Ham, honey, sugar</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 600 kcal<br>
+Calories: 720 kcal<br>
 Protein:38g<br>
 Fat: 46g<br>
 Carbohydrates:18g
@@ -409,11 +409,11 @@ Baked and brushed with glaze.
 </section>
 
 
-<div class="card dish"><b>Roast Veal</b><span class="price">₱540</span>
+<div class="card dish"><b>Roast Veal</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Veal, brown sauce</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 580 kcal<br>
+Calories: 760 kcal<br>
 Protein:48g<br>
 Fat: 44g<br>
 Carbohydrates:6g
@@ -428,14 +428,22 @@ Roasted and served with sauce.
 </section>
 
 
+
+
+
+
+
+
+
+
 <!-- SORBET / PALATE CLEANSER -->
 <section><h2>Sorbet / Palate Cleanser</h2> 
 
-<div class="card dish"><b>Green Apple Sorbet</b><span class="price">₱190</span>
+<div class="card dish"><b>Green Apple Sorbet</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Apple, sugar, water</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 130 kcal<br>
+Calories: 150 kcal<br>
 Protein:0g<br>
 Fat: 0g<br>
 Carbohydrates:0g
@@ -449,11 +457,11 @@ Fruit mixture is churned until frozen.
 </div>
 </section>
 
-<div class="card dish"><b>Mango Sorbet</b><span class="price">₱200</span>
+<div class="card dish"><b>Mango Sorbet</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Mango, sugar, water</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 160 kcal<br>
+Calories: 150 kcal<br>
 Protein:0g<br>
 Fat: 0g<br>
 Carbohydrates:0g
@@ -467,11 +475,11 @@ Fruit mixture is churned until frozen.
 </div>
 </section>
 
-<div class="card dish"><b>Lemon Sorbet</b><span class="price">₱180</span>
+<div class="card dish"><b>Lemon Sorbet</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Lemon, sugar, water</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 120 kcal<br>
+Calories: 150 kcal<br>
 Protein:0g<br>
 Fat: 0g<br>
 Carbohydrates:0g
@@ -490,7 +498,7 @@ Fruit mixture is churned until frozen.
 <!-- RÔTI / ROAST -->
 <section><h2>Rôti / Roast</h2>
 
-<div class="card dish"><b>Roasted Chicken</b><span class="price">₱520</span>
+<div class="card dish"><b>Roasted Chicken</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Chicken, herbs, olive oil</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -508,7 +516,7 @@ Oven-roasted until golden.
 </div>
 </section>
 
-<div class="card dish"><b>Roast Duck</b><span class="price">₱680</span>
+<div class="card dish"><b>Roast Duck</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Meat, herbs, seasoning</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -547,7 +555,7 @@ Slow-roasted and carved.
 <!-- LÉGUMES / VEGETABLES -->
 <section><h2>Légumes / Vegetables</h2>
 
-<div class="card dish"><b>Butter-Glazed Carrots</b><span class="price">₱200</span>
+<div class="card dish"><b>Butter-Glazed Carrots</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Carrots, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -565,7 +573,7 @@ Simmered and glazed.
 </div>
 </section>
 
-<div class="card dish"><b>Creamed Spinach</b><span class="price">₱240</span>
+<div class="card dish"><b>Creamed Spinach</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Spinach, cream</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
@@ -583,11 +591,11 @@ Cooked in creamy sauce.
 </div>
 </section>
 
-<div class="card dish"><b>Roasted Seasonal Vegetables</b><span class="price">₱230</span>
+<div class="card dish"><b>Roasted Seasonal Vegetables</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> (Carrots, Broccoli, Bell Peppers), Olive oil, Garlic, Salt, Pepper  </p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 200 kcal<br>
+Calories: 150 kcal<br>
 Protein:3g<br>
 Fat: 9g<br>
 Carbohydrates:15g
@@ -604,11 +612,11 @@ Roasting brings out the natural sweetness of vegetables while keeping them healt
 <!-- ENTREMET / SWEETS -->
 <section><h2>Entremet / Sweets</h2>
 
-<div class="card dish"><b>Chocolate Lava Cake</b><span class="price">₱320</span>
+<div class="card dish"><b>Chocolate Lava Cake</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong> Mushrooms, cream, butter</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 520 kcal<br>
+Calories: 450 kcal<br>
 Protein: 6g<br>
 Fat: 28g<br>
 Carbohydrates:45g
@@ -622,11 +630,11 @@ Baked until molten center forms.
 </div>
 </section>
 
-<div class="card dish"><b>Tiramisu</b><span class="price">₱330</span>
+<div class="card dish"><b>Tiramisu</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong>Mascarpone, coffee, sponge cake</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 480 kcal<br>
+Calories: 420 kcal<br>
 Protein: 7g<br>
 Fat: 26g<br>
 Carbohydrates:38g
@@ -640,11 +648,11 @@ Layered and chilled.
 </div>
 </section>
 
-<div class="card dish"><b>Vanilla Panna Cotta</b><span class="price">₱280</span>
+<div class="card dish"><b>Vanilla Panna Cotta</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong>Cream, milk, sugar, gelatin, vanilla</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 400 kcal<br>
+Calories: 360 kcal<br>
 Protein: 4g<br>
 Fat: 28g<br>
 Carbohydrates:24g
@@ -665,11 +673,11 @@ Cream mixture is heated, poured into molds, chilled until set
 <!-- SAVOUREUX / FROMAGE -->
 <section><h2>Savoureux / Fromage</h2>
 
-<div class="card dish"><b>Camembert</b><span class="price">₱280</span>
+<div class="card dish"><b>Camembert</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong>Cow’s milk, cultures</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 220 kcal<br>
+Calories: 90 kcal<br>
 Protein: 5g<br>
 Fat: 7g<br>
 Carbohydrates:1g
@@ -683,11 +691,11 @@ Served at room temperature.
 </div>
 </section>
 
-<div class="card dish"><b>Blue Cheese</b><span class="price">₱300</span>
+<div class="card dish"><b>Blue Cheese</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong>Cow’s milk, cultures, salt</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 250 kcal<br>
+Calories: 100 kcal<br>
 Protein: 6g<br>
 Fat: 8g<br>
 Carbohydrates:1g
@@ -701,11 +709,11 @@ Served at room temperature to enhance flavor
 </div>
 </section>
 
-<div class="card dish"><b>Cheese Platter</b><span class="price">₱520</span>
+<div class="card dish"><b>Cheese Platter</b><span class="price">₱620</span>
 <p class="info"><strong>Ingredients:</strong>Mixed cheeses, crackers, fruits</p>
 
 <p class="info"><strong>Nutrition (Approx.):</strong><br>
-Calories: 450 kcal<br>
+Calories: 280 kcal<br>
 Protein: 14g<br>
 Fat: 22g<br>
 Carbohydrates:6g

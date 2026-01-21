@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BARs Kitchen QR Menu</title>
+
+<style>
+:root{
+--bg:#0d0d0d;
+--card:#1a1a1a;
+--gold:#d4af37;
+--text:#f5f5f5;
+}
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:var(--bg);
+color:var(--text);
+}
+
+header{
+text-align:center;
+padding:20px;
+}
+
+.logo{max-width:160px;}
+
+h1,h2{color:var(--gold);}
+
+section{padding:15px;}
+
+.card{
+background:var(--card);
+padding:15px;
+border-radius:10px;
+margin:10px 0;
+}
+
+.price{float:right;color:var(--gold);}
+
+.macros,.allergens{font-size:14px;color:#ccc;}
+
+input{
+width:90%;
+padding:10px;
+border-radius:8px;
+border:none;
+margin:10px auto;
+display:block;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="bars-logo.png" class="logo">
+<h1>BARs Kitchen Restaurant</h1>
+<p>Classic Flavors, Crafted with Passion.</p>
+</header>
+
+<input type="text" id="search" placeholder="Search dish...">
+
+<script>
+document.getElementById("search").addEventListener("keyup",()=>{
+let v=search.value.toLowerCase();
+document.querySelectorAll(".dish").forEach(d=>{
+d.style.display=d.innerText.toLowerCase().includes(v)?"block":"none";
+});
+});
+</script>
+
+<!-- APPETIZERS -->
+<section><h2>Appetizers</h2>
+
+<div class="card dish"><b>Truffle Mushroom Tartlet</b><span class="price">₱350</span>
+<p class="info"><strong>Ingredients:</strong> Mushrooms, cream, truffle oil, tart shell</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 360 kcal<br>
+Protein: 10g<br>
+Fat: 24g<br>
+Carbohydrates: 30g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🌾 Gluten, 🥛 Dairy, 🍳 Egg</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Mushrooms are sautéed with cream and baked in a crisp tart shell.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Seared Scallops</b><span class="price">₱220</span>
+<p class="info"><strong>Ingredients:</strong> Scallops, butter, lemon juice, garlic</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 420 kcal<br>
+Protein: 26g<br>
+Fat: 28g<br>
+Carbohydrates: 8g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🐟 Shellfish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Scallops are seasoned and quickly seared in hot butter, then finished with lemon butter sauce.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Beef Carpaccio</b><span class="price">₱380</span>
+<p class="info"><strong>Ingredients:</strong> Raw beef, olive oil, parmesan, arugula</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 310 kcal<br>
+Protein: 28g<br>
+Fat: 20g<br>
+Carbohydrates: 4g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Beef is thinly sliced, chilled, and dressed with olive oil and cheese.
+</p>
+</div>
+</section>
+
+
+
+
+<!-- SOUPS -->
+<section><h2>Soups</h2>
+
+<div class="card dish"><b>Cream of Mushroom</b><span class="price">₱260</span>
+<p class="info"><strong>Ingredients:</strong> Mushrooms, cream, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 330 kcal<br>
+Protein: 8g<br>
+Fat: 22g<br>
+Carbohydrates:26g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Mushrooms are cooked and blended with cream until smooth.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Lobster Bisque</b><span class="price">₱420</span>
+<p class="info"><strong>Ingredients:</strong> Lobster, cream, stock, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 420 kcal<br>
+Protein: 18g<br>
+Fat: 30g<br>
+Carbohydrates:20g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🍤 Shellfish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Lobster shells are simmered for flavor and blended into a creamy soup.
+</p>
+</div>
+</section>
+
+
+<div class="card dish"><b>Pumpkin Velouté</b><span class="price">₱240</span>
+<p class="info"><strong>Ingredients:</strong> Pumpkin, cream, nutmeg</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 290 kcal<br>
+Protein: 6g<br>
+Fat: 14g<br>
+Carbohydrates:36g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Pumpkin is cooked, blended, and finished with cream.
+</p>
+</div>
+</section>
+
+
+
+<!-- FISH -->
+<section><h2>Poisson / Fish</h2>
+
+<div class="card dish"><b>Pan-Seared Salmon</b><span class="price">₱520</span>
+<p class="info"><strong>Ingredients:</strong> Salmon, butter, lemon, dill</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 480 kcal<br>
+Protein:40g<br>
+Fat: 34g<br>
+Carbohydrates:5g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🐟 Fish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Salmon is pan-seared and topped with lemon dill sauce.
+</p>
+</div>
+</section>
+
+
+<div class="card dish"><b>Poached Cod</b><span class="price">₱460</span>
+<p class="info"><strong>Ingredients:</strong> Cod, white wine, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 360 kcal<br>
+Protein:36g<br>
+Fat: 18g<br>
+Carbohydrates:10g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🐟 Fish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Cod is gently poached in seasoned liquid.
+</p>
+</div>
+</section>
+
+
+<div class="card dish"><b>Herb-Crusted Tuna</b><span class="price">₱500</span>
+<p class="info"><strong>Ingredients:</strong> Tuna, herbs, olive oil</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 450 kcal<br>
+Protein:45g<br>
+Fat: 26g<br>
+Carbohydrates:4g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🐟 Fish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Tuna is coated with herbs and seared.
+</p>
+</div>
+</section>
+
+
+
+<!-- PASTA -->
+<section><h2>Pasta</h2>
+
+<div class="card dish"><b>Fettuccine Alfredo</b><span class="price">₱380</span>
+<p class="info"><strong>Ingredients:</strong> Fettuccine pasta, butter, garlic, cream, Parmesan cheese </p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 620 kcal<br>
+Protein:18g<br>
+Fat: 35g<br>
+Carbohydrates:70g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Gluten (wheat), dairy (milk)</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Fettuccine pasta tossed in a rich cream sauce with butter, garlic, and Parmesan cheese.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Penne Arrabbiata</b><span class="price">₱340</span>
+<p class="info"><strong>Ingredients:</strong> Penne pasta, olive oil, garlic, tomato sauce, chili flakes </p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 450 kcal<br>
+Protein:14g<br>
+Fat: 14g<br>
+Carbohydrates:75g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Gluten (wheat)</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Penne pasta cooked al dente and coated in a spicy tomato and garlic sauce with olive oil.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Seafood Linguine</b><span class="price">₱420</span>
+<p class="info"><strong>Ingredients:</strong> Penne pasta, olive oil, garlic, tomato sauce, chili flakes </p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 520 kcal<br>
+Protein:28g<br>
+Fat: 12g<br>
+Carbohydrates:72g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Gluten (wheat)</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Linguine pasta tossed with mixed seafood in a light tomato-garlic sauce.
+</p>
+</div>
+</section>
+
+
+<!-- MEAT -->
+<section><h2>ENTRÉE / MEAT</h2>
+
+<div class="card dish"><b>Beef Tenderloin Steak</b><span class="price">₱680</span>
+<p class="info"><strong>Ingredients:</strong> Beef, red wine, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 650 kcal<br>
+Protein:52g<br>
+Fat: 48g<br>
+Carbohydrates:6g
+</p>
+
+<p class="info"><strong>Allergens:</strong> 🐟 Fish, 🥛 Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Steak is grilled and served with wine sauce.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Chicken Supreme</b><span class="price">₱460</span>
+<p class="info"><strong>Ingredients:</strong> Chicken, cream, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 520 kcal<br>
+Protein:42g<br>
+Fat: 36g<br>
+Carbohydrates:12g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Chicken breast is roasted and finished with cream sauce.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Braised Lamb Shank</b><span class="price">₱720</span>
+<p class="info"><strong>Ingredients:</strong> Lamb, vegetables, stock</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 720 kcal<br>
+Protein:50g<br>
+Fat: 55g<br>
+Carbohydrates:8g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Lamb is slow-cooked until tender.
+</p>
+</div>
+</section>
+
+
+<!-- RELEVÉ / JOINT -->
+<section><h2>RELEVÉ / JOINT</h2>
+
+<div class="card dish"><b>Roast Prime Rib</b><span class="price">₱780</span>
+<p class="info"><strong>Ingredients:</strong> Beef rib, herbs</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 780 kcal<br>
+Protein:56g<br>
+Fat: 60g<br>
+Carbohydrates:4g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Slow-roasted and rested before slicing.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Glazed Ham</b><span class="price">₱500</span>
+<p class="info"><strong>Ingredients:</strong> Ham, honey, sugar</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 600 kcal<br>
+Protein:38g<br>
+Fat: 46g<br>
+Carbohydrates:18g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Baked and brushed with glaze.
+</p>
+</div>
+</section>
+
+
+<div class="card dish"><b>Roast Veal</b><span class="price">₱540</span>
+<p class="info"><strong>Ingredients:</strong> Veal, brown sauce</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 580 kcal<br>
+Protein:48g<br>
+Fat: 44g<br>
+Carbohydrates:6g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Roasted and served with sauce.
+</p>
+</div>
+</section>
+
+
+<!-- SORBET / PALATE CLEANSER -->
+<section><h2>Sorbet / Palate Cleanser</h2> 
+
+<div class="card dish"><b>Green Apple Sorbet</b><span class="price">₱190</span>
+<p class="info"><strong>Ingredients:</strong> Apple, sugar, water</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 130 kcal<br>
+Protein:0g<br>
+Fat: 0g<br>
+Carbohydrates:0g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Fruit mixture is churned until frozen.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Mango Sorbet</b><span class="price">₱200</span>
+<p class="info"><strong>Ingredients:</strong> Mango, sugar, water</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 160 kcal<br>
+Protein:0g<br>
+Fat: 0g<br>
+Carbohydrates:0g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Fruit mixture is churned until frozen.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Lemon Sorbet</b><span class="price">₱180</span>
+<p class="info"><strong>Ingredients:</strong> Lemon, sugar, water</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 120 kcal<br>
+Protein:0g<br>
+Fat: 0g<br>
+Carbohydrates:0g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Fruit mixture is churned until frozen.
+</p>
+</div>
+</section>
+
+
+
+<!-- RÔTI / ROAST -->
+<section><h2>Rôti / Roast</h2>
+
+<div class="card dish"><b>Roasted Chicken</b><span class="price">₱520</span>
+<p class="info"><strong>Ingredients:</strong> Chicken, herbs, olive oil</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 650 kcal<br>
+Protein:30g<br>
+Fat: 20g<br>
+Carbohydrates:2g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Oven-roasted until golden.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Roast Duck</b><span class="price">₱680</span>
+<p class="info"><strong>Ingredients:</strong> Meat, herbs, seasoning</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 720 kcal<br>
+Protein:28g<br>
+Fat: 35g<br>
+Carbohydrates:0g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Slow-roasted and carved.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Roast Turkey</b><span class="price">₱620</span>
+<p class="info"><strong>Ingredients:</strong> Meat, herbs, seasoning</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 700 kcal<br>
+Protein:32g<br>
+Fat: 14g<br>
+Carbohydrates:1g
+</p>
+
+<p class="info"><strong>Allergens:</strong> None</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Slow-roasted and carved.
+</p>
+</div>
+</section>
+
+<!-- LÉGUMES / VEGETABLES -->
+<section><h2>Légumes / Vegetables</h2>
+
+<div class="card dish"><b>Butter-Glazed Carrots</b><span class="price">₱200</span>
+<p class="info"><strong>Ingredients:</strong> Carrots, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 180 kcal<br>
+Protein:32g<br>
+Fat: 14g<br>
+Carbohydrates:1g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Simmered and glazed.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Creamed Spinach</b><span class="price">₱240</span>
+<p class="info"><strong>Ingredients:</strong> Spinach, cream</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 220 kcal<br>
+Protein:32g<br>
+Fat: 14g<br>
+Carbohydrates:1g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Cooked in creamy sauce.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Roasted Seasonal Vegetables</b><span class="price">₱230</span>
+<p class="info"><strong>Ingredients:</strong> (Carrots, Broccoli, Bell Peppers), Olive oil, Garlic, Salt, Pepper  </p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 200 kcal<br>
+Protein:3g<br>
+Fat: 9g<br>
+Carbohydrates:15g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Roasting brings out the natural sweetness of vegetables while keeping them healthy and flavorful.
+</p>
+</div>
+</section>
+
+<!-- ENTREMET / SWEETS -->
+<section><h2>Entremet / Sweets</h2>
+
+<div class="card dish"><b>Chocolate Lava Cake</b><span class="price">₱320</span>
+<p class="info"><strong>Ingredients:</strong> Mushrooms, cream, butter</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 520 kcal<br>
+Protein: 6g<br>
+Fat: 28g<br>
+Carbohydrates:45g
+</p>
+
+<p class="info"><strong>Allergens:</strong>  Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Baked until molten center forms.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Tiramisu</b><span class="price">₱330</span>
+<p class="info"><strong>Ingredients:</strong>Mascarpone, coffee, sponge cake</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 480 kcal<br>
+Protein: 7g<br>
+Fat: 26g<br>
+Carbohydrates:38g
+</p>
+
+<p class="info"><strong>Allergens:</strong>  Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Layered and chilled.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Vanilla Panna Cotta</b><span class="price">₱280</span>
+<p class="info"><strong>Ingredients:</strong>Cream, milk, sugar, gelatin, vanilla</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 400 kcal<br>
+Protein: 4g<br>
+Fat: 28g<br>
+Carbohydrates:24g
+</p>
+
+<p class="info"><strong>Allergens:</strong>  Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Cream mixture is heated, poured into molds, chilled until set
+</p>
+</div>
+</section>
+
+
+
+
+
+<!-- SAVOUREUX / FROMAGE -->
+<section><h2>Savoureux / Fromage</h2>
+
+<div class="card dish"><b>Camembert</b><span class="price">₱280</span>
+<p class="info"><strong>Ingredients:</strong>Cow’s milk, cultures</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 220 kcal<br>
+Protein: 5g<br>
+Fat: 7g<br>
+Carbohydrates:1g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Served at room temperature.
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Blue Cheese</b><span class="price">₱300</span>
+<p class="info"><strong>Ingredients:</strong>Cow’s milk, cultures, salt</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 250 kcal<br>
+Protein: 6g<br>
+Fat: 8g<br>
+Carbohydrates:1g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy, Gluten</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Served at room temperature to enhance flavor
+</p>
+</div>
+</section>
+
+<div class="card dish"><b>Cheese Platter</b><span class="price">₱520</span>
+<p class="info"><strong>Ingredients:</strong>Mixed cheeses, crackers, fruits</p>
+
+<p class="info"><strong>Nutrition (Approx.):</strong><br>
+Calories: 450 kcal<br>
+Protein: 14g<br>
+Fat: 22g<br>
+Carbohydrates:6g
+</p>
+
+<p class="info"><strong>Allergens:</strong> Dairy</p>
+
+<p class="info"><strong>Cooking Procedure:</strong><br>
+Arranged and served chilled.
+</p>
+</div>
+</section>
+
+
+
+<!-- BEVERAGES -->
+<section><h2>Beverages</h2>
+<div class="card dish"><b>Red Wine</b> ₱380</div>
+<div class="card dish"><b>White Wine</b> ₱360</div>
+<div class="card dish"><b>Champagne</b> ₱620</div>
+<div class="card dish"><b>Classic Martini</b> ₱420</div>
+<div class="card dish"><b>Fresh Orange Juice</b> ₱180</div>
+<div class="card dish"><b>Lemonade</b> ₱160</div>
+<div class="card dish"><b>Brewed Coffee</b> ₱150</div>
+<div class="card dish"><b>Cappuccino</b> ₱190</div>
+</section>
+
+</body>
+</html>
